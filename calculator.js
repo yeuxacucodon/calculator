@@ -1,4 +1,4 @@
-const display = document.getElementById("screen");
+const display = document.getElementById("output");
 
 const wipe = () => {
 	display.value = "";
