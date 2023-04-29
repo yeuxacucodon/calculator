@@ -11,3 +11,7 @@ const show = (n) => {
 const calc = () => {
 	display.value = eval(display.value);
 };
+
+const del = () => {
+	display.value = display.value.toString().slice(0, -1);
+};
