@@ -4,6 +4,7 @@
 }
 
 body {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +30,6 @@ button {
 }
 
 .container {
-  margin-top: 10vh;
   background: #212532;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
